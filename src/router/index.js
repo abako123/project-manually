@@ -124,6 +124,31 @@ const routes = [
     path: '/attributebutton',
     name: 'AttributeButton',
     component: () => import(/* webpackChunkName: "attributebutton" */ '../views/AttributeButton.vue')
+  },
+  {
+    path: '/classstylebinding',
+    name: 'ClassStyleBinding',
+    component: () => import(/* webpackChunkName: "classstylebinding" */ '../views/ClassStyleBinding.vue')
+  },
+  {
+    path: '/renderinglist',
+    name: 'RenderingList',
+    component: () => import(/* webpackChunkName: "renderinglist" */ '../views/RenderingList.vue')
+  },
+  {
+    path: '/renderingvifvshow',
+    name: 'RenderingVifVshow',
+    component: () => import(/* webpackChunkName: "renderingvifvshow" */ '../views/RenderingVifVshow.vue')
+  },
+  {
+    path: '/eventclickchangekey',
+    name: 'EventClickChangeKey',
+    component: () => import(/* webpackChunkName: "eventclickchangekey" */ '../views/EventClickChangeKey.vue')
+  },
+  {
+    path: '/computedwatch',
+    name: 'ComputedWatch',
+    component: () => import(/* webpackChunkName: "computedwatch" */ '../views/ComputedWatch.vue')
   }
 ]
 

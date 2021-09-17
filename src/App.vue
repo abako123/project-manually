@@ -24,6 +24,11 @@
     <router-link to="/databinding2">DataBinding2</router-link> |
     <router-link to="/selectcheckboxradio">SelectCheckboxRadio</router-link> |
     <router-link to="/attributebutton">AttributeButton</router-link> |
+    <router-link to="/classstylebinding">ClassStyleBinding</router-link> |
+    <router-link to="/renderinglist">RenderingList</router-link> |
+    <router-link to="/renderingvifvshow">RenderingVifVshow</router-link> |
+    <router-link to="/eventclickchangekey">EventClickChangeKey</router-link> |
+    <router-link to="/computedwatch">ComputedWatch</router-link> |
     <hr>
     <router-view/>
   </div>
