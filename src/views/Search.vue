@@ -4,7 +4,7 @@
       <select v-model="selectedCity">
         <option :value="city.code" :key="i" v-for="(city, i) in cityList">{{city.name}}</option>
       </select>
-      <input type="text" v-model="userName" @keyup.enter="searchUserList">
+      <input type="text" v-model="userName" @keyup.enter="searchUserList" />
       <button @click="searchUserList">조회</button>
     </div>
     <div>
@@ -18,9 +18,9 @@
         </thead>
         <tbody>
           <tr :key="i" v-for="(person, i) in userList">
-            <td>{{person.name}}</td>
-            <td>{{person.age}}</td>
-            <td>{{person.job}}</td>
+            <td>{{ person.name }}</td>
+            <td>{{ person.age }}</td>
+            <td>{{ person.job }}</td>
           </tr>
         </tbody>
       </table>

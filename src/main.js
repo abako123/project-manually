@@ -4,9 +4,10 @@ import './registerServiceWorker'
 import router from './router'
 import mixins from './mixins'
 import store from './store'
-import VueSweetalert2 from 'vue-sweetalert2'
+import Swal from 'vue-sweetalert2'
 import 'sweetalert2/dist/sweetalert2.min.css'
 import i18nPlugin from './plugins/i18n'
+import 'animate.css'
 
 const i18nStrings = {
   en: {
@@ -21,7 +22,7 @@ const i18nStrings = {
 
 const app = createApp(App)
 app.use(router)
-app.use(VueSweetalert2)
+app.use(Swal)
 app.use(i18nPlugin, i18nStrings)
 app.directive('focus', {
   mounted (el) {
