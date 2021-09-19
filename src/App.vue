@@ -29,6 +29,7 @@
     <router-link to="/renderingvifvshow">RenderingVifVshow</router-link> |
     <router-link to="/eventclickchangekey">EventClickChangeKey</router-link> |
     <router-link to="/computedwatch">ComputedWatch</router-link> |
+    <router-link to="/example">Example</router-link> |
     <hr>
     <router-view/>
   </div>

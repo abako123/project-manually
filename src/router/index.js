@@ -149,6 +149,11 @@ const routes = [
     path: '/computedwatch',
     name: 'ComputedWatch',
     component: () => import(/* webpackChunkName: "computedwatch" */ '../views/ComputedWatch.vue')
+  },
+  {
+    path: '/example',
+    name: 'Example',
+    component: () => import(/* webpackChunkName: "example" */ '../views/Example.vue')
   }
 ]
 
