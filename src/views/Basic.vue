@@ -1,20 +1,22 @@
 <template>
-  <div></div>
+  <div>
+    <input type="text" v-focus />
+  </div>
 </template>
 
 <script>
 export default {
   name: '',
   components: {},
-  data() {
+  data () {
     return {
       sampleData: ''
     }
   },
-  setup() {},
-  created() {},
-  mounted() {},
-  unmounted() {},
+  setup () {},
+  created () {},
+  mounted () {},
+  unmounted () {},
   methods: {}
 }
 </script>
