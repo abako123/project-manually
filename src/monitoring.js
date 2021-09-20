@@ -1,8 +1,8 @@
 export default {
   mounted () {
-    console.log('믹스인 mounted')
+    // 데이터베이스 사간 저장
   },
   unmounted () {
-    console.log('믹스인 unmounted')
+    // 데이터베이스 사간 저장
   }
 }

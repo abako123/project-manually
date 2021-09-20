@@ -26,10 +26,9 @@ export default {
   methods: {
     saveUserInfo2 () {
       if (this.userInfo.name === '') {
-        // return alert('사용자 이름을 입력하세요.')
-        // return this.$swal('사용자 이름을 입력하세요.')
         return this.$swal({
-          title: '사용자 이름을 입력하세요.',
+          title: '이름을 입력하세요.',
+          text: '사용자의 이름은 필수 입력 사항입니다.',
           showClass: {
             popup: 'animate__animated animate__fadeInDown'
           },
@@ -39,9 +38,9 @@ export default {
         })
       }
       if (this.userInfo.age === 0 || this.userInfo.age === '') {
-        // return alert('나이를 입력하세요.')
         return this.$swal({
           title: '나이를 입력하세요.',
+          text: '사용자의 나이는 필수 입력 사항입니다.',
           showClass: {
             popup: 'animate__animated animate__fadeInDown'
           },
@@ -52,9 +51,9 @@ export default {
       }
       const r = this.saveData(this.userInfo)
       if (r === 'S') {
-        // alert('사용자 정보가 생성되었습니다.')
         return this.$swal({
           title: '사용자 정보가 생성되었습니다.',
+          text: '회원 가입을 축하드립니다!',
           showClass: {
             popup: 'animate__animated animate__fadeInDown'
           },

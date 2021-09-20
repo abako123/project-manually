@@ -1,10 +1,12 @@
 <template>
   <div>
+    <!-- <ProvideInjectChild :itemLength="this.items.length" /> -->
     <ProvideInjectChild />
   </div>
 </template>
 <script>
 import ProvideInjectChild from './ProvideInjectChild'
+
 export default {
   components: { ProvideInjectChild },
   data () {

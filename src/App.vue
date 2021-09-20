@@ -12,9 +12,11 @@
     <router-link to="/provide">ProvideInject</router-link> |
     <router-link to="/mixins">Mixins</router-link> |
     <router-link to="/calculator">Calculator</router-link> |
+    <router-link to="/compositionapi">CompositionAPI</router-link> |
     <router-link to="/compositionapi2">CompositionAPI2</router-link> |
     <router-link to="/compositionapi4">CompositionAPI4</router-link> |
     <router-link to="/compositionapiprovide">CompositionAPIProvide</router-link> |
+    <router-link to="/compositionapiinject">CompositionAPIInject</router-link> |
     <router-link to="/customdirective">CustomDirective</router-link> |
     <router-link to="/plugins">Plugins</router-link> |
     <router-link to="/storeaccess">StoreAccess</router-link> |

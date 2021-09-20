@@ -66,6 +66,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "calculator" */ '../views/Calculator.vue')
   },
   {
+    path: '/compositionapi',
+    name: 'CompositionAPI',
+    component: () => import(/* webpackChunkName: "compositionapi" */ '../views/CompositionAPI.vue')
+  },
+  {
     path: '/compositionapi2',
     name: 'CompositionAPI2',
     component: () => import(/* webpackChunkName: "compositionapi2" */ '../views/CompositionAPI2.vue')
@@ -79,6 +84,11 @@ const routes = [
     path: '/compositionapiprovide',
     name: 'CompositionAPIProvide',
     component: () => import(/* webpackChunkName: "compositionapiprovide" */ '../views/CompositionAPIProvide.vue')
+  },
+  {
+    path: '/compositionapiinject',
+    name: 'CompositionAPIInject',
+    component: () => import(/* webpackChunkName: "compositionapiprovide" */ '../views/CompositionAPIInject.vue')
   },
   {
     path: '/customdirective',

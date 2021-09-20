@@ -19,10 +19,9 @@ export default {
   setup () {
     // 외부 function인 plusCalculator을 호출하여 num1, num2, result를 받아와서 const로 선언
     const { num1, num2, result } = plusCalculator()
+
     return {
-      num1,
-      num2,
-      result
+      num1, num2, result
     }
   }
 }

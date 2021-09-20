@@ -1,11 +1,20 @@
 <template>
-<div>
-  <div>Item Length: {{ this.itemLength }}</div>
-  <div>Items: {{ this.items }}</div>
-</div>
+  <div>
+    <!-- <ProvideInjectChildChild :itemLength="itemLength" /> -->
+    <ProvideInjectChildChild />
+  </div>
 </template>
+
 <script>
+import ProvideInjectChildChild from './ProvideInjectChildChild'
+
 export default {
-  inject: ['itemLength', 'items']
+  components: { ProvideInjectChildChild }
+  // props: {
+  //   itemLength: {
+  //     type: Number,
+  //     default: 0
+  //   }
+  // }
 }
 </script>

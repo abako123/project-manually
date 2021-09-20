@@ -2,9 +2,9 @@
   <div>
     <h2>Calculator</h2>
     <div>
-      <input type="text" v-model.number="num1" @keyup="plusNumbers">
+      <input type="text" v-model.number="num1" @keyup="plusNumbers" />
       <span> + </span>
-      <input type="text" v-model.number="num2" @keyup="plusNumbers">
+      <input type="text" v-model.number="num2" @keyup="plusNumbers" />
       <span> = </span>
       <span>{{result}}</span>
     </div>
