@@ -1,19 +1,36 @@
 import { createStore } from 'vuex'
 
-export default createStore({
-  user: {},
+const store = createStore({
   state () {
     return {
-      user: {}
+      count: 0,
+      cart: [
+        {
+          product_id: 1,
+          product_name: '나니폰 거치대',
+          category: 'A'
+        },
+        {
+          product_id: 2,
+          product_name: '불루투스 마우스',
+          category: 'B'
+        }
+      ]
     }
   },
   mutations: {
-    user (state, data) {
-      state.user = data
-     }
+    increment (state) {
+      state.count++
+    }
   },
-  actions: {
-  },
-  modules: {
+  getters: {
+    cartCount: (state) => {
+      return state.cart.length
+    },
+    productACount: (state) => {
+      return state.cart.filter(p => p.category === 'A').length
+    }
   }
 })
+
+export default store

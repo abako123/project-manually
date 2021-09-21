@@ -22,7 +22,7 @@ export default {
   },
   methods: {
     increment () {
-      // $store -> store.js, commit -> store.js의 mutations에 접근을 허락
+      // $store -> store>index.js, commit -> index.js의 mutations에 접근을 허락
       // ('increment') -> mutations의 increment() 함수를 호출
       this.$store.commit('increment')
     }
